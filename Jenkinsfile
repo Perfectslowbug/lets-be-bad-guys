@@ -8,7 +8,7 @@ pipeline {
   }
   
   enviroment {
-    // Semgrep org ID and authentication token
+    // Semgrep org ID and authentication token, another comment
     SEMGREP_APP_TOKEN = credentials('SEMGREP_APP_TOKEN')
     SEMGREP_DEVELOPMENT_ID = credentials('SEMGREP_DEVELOPMENT_ID')
     
